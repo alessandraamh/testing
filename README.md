@@ -25,7 +25,7 @@ https://webservice-jogos-henryhiraki22-1.c9users.io/listaJogos    <- retorna tod
 ```
 curl https://webservice-jogos-henryhiraki22.c9users.io/buscaUsuario/5 <- retorna via ID.
 
-curl https://webservice-jogos-henryhiraki22.c9users.io/listaUsuarios
+curl https://webservice-jogos-henryhiraki22.c9users.io/listaUsuarios <- retorna todos os usuários.
 
 ```
 <p>Tabela Fimes</p>
@@ -40,4 +40,40 @@ curl https://webservice-jogos-henryhiraki22.c9users.io/listaUsuarios
 
 
 ```
+
+<h3>Método POST</h3>
+
+<p>Tabela Jogos</p>
+
+```
+curl https://webservice-jogos-henryhiraki22.c9users.io/insereJogo / -v / X POST / -H 'content-type:application/json' / -d '{"nome":"FIFA","valor":299.99, "plataforma":"Playstation", "genero":"SOCCER"}' 
+```
+
+<p>Tabela Usuários</p>
+```
+curl https://webservice-jogos-henryhiraki22.c9users.io/insereUsuario / -v / -X POST / -H 'content-type:application/json' / -d '{"nome":"Henry","login":"Hirak","senha":"123"}'
+```
+<p>Tabela Fimes</p>
+```
+
+```
+<p> Tabela Séries </p>
+```
+
+```
+<h3>Método PUT</h3>
+
+<p>Tabela Jogos<p>
+```
+curl https://webservice-jogos-henryhiraki22.c9users.io/atualizaJogo / -v / -X PUT / -H 'content-type:application/json' / -d '{"id":8,"nome":"FORZA-6","valor":50.00,"plataforma":"XBOX","genero":"Corrida"}'
+```
+
+
+
+
+
+
+
+
+
 
