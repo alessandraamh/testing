@@ -115,7 +115,8 @@ curl https://webservice-jogos-henryhiraki22.c9users.io/autenticar / -v / -X POST
 curl https://webservice-jogos-henryhiraki22.c9users.io/autorizar / -H "Content-Type:application/json" -H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IkhlbnJ5Ig.D3my9luWymgbRLxY7dOP-MrGek2SbpLm6AwayyuPd_E" -d '{ "login" : "Hirak","senha":"123" }'
 
 ```
-
+<h1> Desenvolvido, para estudos.</h1>
+<p>Obrigado a todos os integrantes da equipe.</p>
 
 
 
