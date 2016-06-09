@@ -1,4 +1,4 @@
-<h1>web service project</h1>
+<h1>Web Service Project</h1>
 
 Sistemas para internet, 4ºCiclo. <br>
 Henry Hiraki, Claudir Furlan, Robson Périco, Julio Domingos
@@ -9,9 +9,10 @@ Henry Hiraki, Claudir Furlan, Robson Périco, Julio Domingos
 O sistema esta RestFul, possui as quatro operações: GET, POST, PUT, DELETE.
 
 ======================================================================
+<h2>Como utilizar o curl</h2>
+<h3>método GET</h3>
 
-<h3>GET</h3>
+```
 
-<p> teste</p>
 
 
