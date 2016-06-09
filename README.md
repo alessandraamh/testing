@@ -1,7 +1,8 @@
 <h1>Web Service Project</h1>
 
 Sistemas para internet, 4ºCiclo. <br>
-Henry Hiraki, Claudir Furlan, Robson Périco, Julio Domingos
+Henry Hiraki, Claudir Furlan, Robson Périco, Julio Domingos<br>
+Professor Alexandre Garcia
 
 ======================================================================
 <h2>Sobre</h2>
