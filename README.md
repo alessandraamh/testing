@@ -67,13 +67,11 @@ curl https://webservice-jogos-henryhiraki22.c9users.io/insereUsuario / -v / -X P
 <p>Tabela Jogos<p>
 ```
 curl https://webservice-jogos-henryhiraki22.c9users.io/atualizaJogo / -v / -X PUT / -H 'content-type:application/json' / -d '{"id":8,"nome":"FORZA-6","valor":50.00,"plataforma":"XBOX","genero":"Corrida"}'
+
 ```
 <p>Tabela Usuários</p>
 ```
 curl https://webservice-jogos-henryhiraki22.c9users.io/atualizaUsuario / -v / -X PUT / -H 'content-type:application/json' / -d '{"nome":"Henry","login":"Hiraki","senha":"123", "id":2}'
-
-
-
 ```
 
 
