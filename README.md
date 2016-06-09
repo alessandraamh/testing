@@ -81,9 +81,28 @@ curl https://webservice-jogos-henryhiraki22.c9users.io/atualizaUsuario / -v / -X
 ```
 
 ```
+<h3>Método DELETE</h3>
 
+<p>Tabela Jogos</p>
+```
+curl https://webservice-jogos-henryhiraki22.c9users.io/atualizaJogo / -v / -X PUT / -H 'content-type:application/json' / -d '{"id":8,"nome":"FORZA-6","valor":50.00,"plataforma":"XBOX","genero":"Corrida"}'
 
+```
+<p>Tabela Usuários</p>
+```
+curl https://webservice-jogos-henryhiraki22.c9users.io/atualizaUsuario / -v / -X PUT / -H 'content-type:application/json' / -d '{"nome":"Henry","login":"Hiraki","senha":"123", "id":2}'
+```
+<p>Tabela Fimes</p>
+```
 
+```
+<p> Tabela Séries </p>
+```
+
+```
+
+<h2>TOKEN</h2>
+<p>Utilizamos o JWT, verificamos se o login e a senha , caso estiver certo ele gera um token.</p>
 
 
 
