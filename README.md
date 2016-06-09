@@ -104,7 +104,17 @@ curl https://webservice-jogos-henryhiraki22.c9users.io/atualizaUsuario / -v / -X
 <h2>TOKEN</h2>
 <p>Utilizamos o JWT, verificamos se o login e a senha , caso estiver certo ele gera um token.</p>
 
+<p>Método autenticar</p>
 
+```
+curl https://webservice-jogos-henryhiraki22.c9users.io/autenticar / -v / -X POST / -H 'content-type:application/json' / -d '{"login":"Hirak","senha":"123"}'
+
+```
+<p>Método Autorizar</p>
+```
+curl https://webservice-jogos-henryhiraki22.c9users.io/autorizar / -H "Content-Type:application/json" -H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IkhlbnJ5Ig.D3my9luWymgbRLxY7dOP-MrGek2SbpLm6AwayyuPd_E" -d '{ "login" : "Hirak","senha":"123" }'
+
+```
 
 
 
